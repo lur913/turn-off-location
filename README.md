@@ -1,43 +1,47 @@
-# Astro Starter Kit: Minimal
+# Turn Off Location
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+Quick Access: [TurnOffLocation.com](https://turnofflocation.com)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> A privacy-focused tutorial site that helps users turn off location tracking on social platforms like Instagram — starting with clear, step-by-step guides featuring images and explanations.
 
-## 🚀 Project Structure
+## 📌 Project Background
 
-Inside of your Astro project, you'll see the following folders and files:
+On August 6, 2025, Instagram quietly rolled out a new feature — **Instagram Map** — in the U.S. and other regions. This feature allows users to actively share their recent activity locations and view content from nearby users on a map.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Although Instagram claims the feature is “off by default” and only visible to mutual followers or selected users, it quickly sparked **widespread privacy concerns** across social media platforms. Users on TikTok, Threads, X (formerly Twitter), and others began to question:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+* Is it really “off by default”?
+* Has my location been exposed without my knowledge?
+* Could this feature be used for **stalking, harassment, or location-based attacks**?
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Searches for “how to turn off Instagram location” surged, reflecting growing anxiety around digital privacy — and a strong demand for clear instructions.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 💡 About This Project
 
-## 🧞 Commands
+[turnofflocation.com](https://turnofflocation.com) was created in direct response to this situation.
 
-All commands are run from the root of the project, from a terminal:
+Our mission is to provide privacy-conscious users with a **clear, fast, and ad-free** instructional website — solving what seems like a simple but often frustrating problem:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+> “How do I actually turn off Instagram’s location tracking?”
 
-## 👀 Want to learn more?
+In reality, the option is often buried deep in multiple menus, with vague guidance from the platform. Users typically have to consult multiple sources before finding a reliable solution.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**This project aims to simplify that experience** —  
+with straightforward visual tutorials that help everyone **take control of their privacy.**
+
+## 🎯 Our Goals
+
+* Deliver **accurate, authoritative, and frequently updated** privacy-setting guides  
+* Provide tailored instructions for **iOS, Android, and desktop platforms**  
+* Help users understand the true implications of each privacy setting  
+* Offer a clean, distraction-free interface to **lower the barrier to privacy protection**
+
+## 🤝 Contribute & Share
+
+If you care about digital privacy, we’d love to have you involved in improving this project:
+
+* Submit PRs to enhance our content  
+* Use Issues to report problems or suggest new platforms to support  
+* Share our site on social media to help others protect themselves
+
+If you believe in this project, please **Star & Watch** us on GitHub — your support means a lot ❤️
