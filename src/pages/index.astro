@@ -1,16 +1,159 @@
 ---
-import '@/styles/global.css'
+import "../styles/global.css";
+
+import Base from "@/layouts/Base.astro";
+import AndroidIcon from "@/assets/svg/android.svg";
+import AppleIcon from "@/assets/svg/apple.svg";
+import InstagramIcon from "@/assets/svg/instagram.svg";
+
+const currentYear = new Date().getFullYear();
+const title = `How to Turn Off Location on Instagram (${currentYear} Guide) | TurnOffLocation.com`;
+const description = `Learn how to disable location services on Instagram for iOS and Android. Updated ${currentYear} step-by-step guide with screenshots. Protect your privacy today.`;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1 class="bg-red-500 font-semibold">Astro</h1>
-	</body>
-</html>
+<Base
+  title={title}
+  description={description}
+  class="bg-white text-gray-900 font-sans"
+>
+  <!-- Hero Section -->
+  <section class="px-4 py-10 md:py-24 text-center bg-gray-100">
+    <h1 class="text-3xl md:text-5xl font-bold mb-4">
+      How to Turn Off Location on Instagram ({currentYear} Guide)
+    </h1>
+    <p class="text-lg mb-6">
+      Learn how to disable Instagram's location features on iOS, Android, and
+      the new Instagram Map. Updated August {currentYear}.
+    </p>
+    <div class="flex flex-col md:flex-row justify-center gap-4">
+      <a
+        href="#"
+        class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+        ><AppleIcon /> iPhone Guide</a
+      >
+      <a
+        href="#"
+        class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+        ><AndroidIcon /> Android Guide</a
+      >
+      <a
+        href="#"
+        class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+        ><InstagramIcon fill="#fff" /> Instagram Map</a
+      >
+    </div>
+  </section>
+
+  <!-- Platform Grid -->
+  <section class="px-6 py-12 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-semibold text-center mb-8">
+      Disable Location Access on Any App
+    </h2>
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-center"
+    >
+      <a
+        href="#"
+        class="bg-white flex items-center gap-2 shadow rounded p-4 hover:bg-blue-50"
+        ><InstagramIcon fill="#000" /> Instagram</a
+      >
+      <div class="bg-gray-100 text-gray-400 rounded p-4">
+        TikTok<br /><span class="text-xs">Coming Soon</span>
+      </div>
+      <div class="bg-gray-100 text-gray-400 rounded p-4">
+        Snapchat<br /><span class="text-xs">Coming Soon</span>
+      </div>
+      <div class="bg-gray-100 text-gray-400 rounded p-4">
+        Facebook<br /><span class="text-xs">Coming Soon</span>
+      </div>
+      <a href="#" class="bg-white shadow rounded p-4 hover:bg-blue-50"
+        >iPhone Settings</a
+      >
+      <a href="#" class="bg-white shadow rounded p-4 hover:bg-blue-50"
+        >Android Settings</a
+      >
+    </div>
+  </section>
+
+  <!-- Popular Guides -->
+  <section class="bg-gray-50 py-12 px-6">
+    <h2 class="text-2xl font-semibold text-center mb-8">
+      Trending Privacy Guides
+    </h2>
+    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <a
+        href="#"
+        class="block p-6 bg-white rounded shadow hover:bg-blue-50"
+      >
+        <h3 class="text-lg font-bold mb-2">
+          What Is Instagram Map & How to Disable It
+        </h3>
+        <p class="text-sm text-gray-600">
+          A new feature reveals your recent location to followers. Here's how to
+          protect your privacy.
+        </p>
+      </a>
+      <a
+        href="#"
+        class="block p-6 bg-white rounded shadow hover:bg-blue-50"
+      >
+        <h3 class="text-lg font-bold mb-2">
+          iPhone: Turn Off Instagram Location in 3 Steps
+        </h3>
+        <p class="text-sm text-gray-600">
+          Stop Instagram from accessing your device's location on iOS.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="px-6 py-12 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-semibold text-center mb-8">
+      Frequently Asked Questions
+    </h2>
+    <div class="space-y-6">
+      <details class="bg-gray-100 p-4 rounded">
+        <summary class="font-semibold cursor-pointer"
+          >Does Instagram track my location by default?</summary
+        >
+        <p class="mt-2 text-sm text-gray-700">
+          Instagram only uses your location if you've granted permission.
+          However, new features like Instagram Map may reveal more than you
+          expect.
+        </p>
+      </details>
+      <details class="bg-gray-100 p-4 rounded">
+        <summary class="font-semibold cursor-pointer"
+          >What is Instagram Map, and should I disable it?</summary
+        >
+        <p class="mt-2 text-sm text-gray-700">
+          Instagram Map shows your recent activity locations to mutual
+          followers. Many users choose to turn it off for privacy reasons.
+        </p>
+      </details>
+      <details class="bg-gray-100 p-4 rounded">
+        <summary class="font-semibold cursor-pointer"
+          >Will turning off location affect recommendations or ads?</summary
+        >
+        <p class="mt-2 text-sm text-gray-700">
+          You may receive less relevant local content, but your privacy is
+          better protected. It's a worthwhile tradeoff for most users.
+        </p>
+      </details>
+    </div>
+  </section>
+
+  <!-- SEO Block -->
+  <section class="px-6 py-4 text-sm text-gray-600  max-w-4xl mx-auto">
+    <p class="bg-gray-100 rounded-md p-8">
+      "TurnOffLocation.com is your go-to privacy guide for disabling location
+      tracking on your favorite apps. We provide step-by-step tutorials for
+      Instagram, TikTok, Snapchat, and more - helping you stay in control of
+      your digital footprint in {currentYear} and beyond. Whether you're using an
+      iPhone, Android device, or just want to understand how features like Instagram
+      Map work, our up-to-date guides are designed to help you protect your personal
+      data." —— turnofflocation.com
+    </p>
+  </section>
+</Base>
