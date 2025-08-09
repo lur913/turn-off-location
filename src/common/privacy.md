@@ -3,7 +3,7 @@ title: 'Privacy Policy'
 lastUpdated: 'August 9, 2025'
 ---
 
-Welcome to TurnOffLocation.com ("the Website"). We respect and are committed to protecting your privacy. This Privacy Policy explains how we handle information when you visit and use our services.
+Welcome to [TurnOffLocation.com](https://turnofflocation.com/) ("the Website"). We respect and are committed to protecting your privacy. This Privacy Policy explains how we handle information when you visit and use our services.
 
 Please read this policy carefully before using the Website.
 

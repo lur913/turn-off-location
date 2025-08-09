@@ -1,63 +1,65 @@
 ---
 title: 'Terms of Use'
-lastUpdated: 'July 22, 2025'
+lastUpdated: 'August 9, 2025'
 ---
 
-Welcome to [plonky.cc](/) (the "Website"). These Terms of Use (the "Terms") are the mutual agreements that apply when you use our services.
+Welcome to [TurnOffLocation.com](https://turnofflocation.com/) (the "Website"). These Terms of Use (the "Terms") are the mutual agreements that apply when we provide our services to you.
 
-By visiting or using the Website, you confirm that you have read, understood, and agree to follow these Terms. If you don't agree, please stop using the Website immediately.
+By visiting or using the Website, you confirm that you have read, understood, and agree to follow these Terms. If you do not agree, please stop using the Website immediately.
 
 ## 1. Service Description
 
-The Website is a free HTML5 game platform that mainly provides access to the game "Plonky" and related video content through `iframe` embedding technology. The Website does not host the game content and only serves as an entry point to display and access third-party content. All services are provided "as is" and "as available."
+The Website is a privacy-focused tutorial site that provides step-by-step guides and video walkthroughs for turning off location tracking in social apps (currently focusing on Instagram). Some content is embedded via `iframe` from third parties (e.g., YouTube). The Website does not host third-party video content and primarily serves as an informational and educational entry point. All services are provided on an "as is" and "as available" basis.
 
 ## 2. Original Content and Rights
 
-- **Our Content**: The rights related to the Website's interface design, text, graphics, logos, and content arrangement belong to us. Please do not copy, distribute, or use them for other purposes without our express permission.
+- **Our Content**: Rights related to the Website’s interface design, text, graphics, logos, screenshots (excluding third-party marks/logos), and content organization belong to us or the respective rights holders. Do not copy, distribute, adapt, or use such content for other purposes without our explicit written permission.
 
-- **Third-Party Content**: The rights to the games (like "Plonky") and video content on the Website belong to their respective creators. We do not own this content. When you use this content, you need to follow the rules set by its providers.
+- **Third-Party Content and Trademarks**: Third-party content appearing on the Website (including but not limited to Instagram, its trademarks/logos, YouTube videos, and screenshots) belongs to their respective owners. The Website is not affiliated with, sponsored by, or endorsed by those third parties. When using third-party content, you must comply with the relevant providers’ rules and policies.
 
 ## 3. User Conduct
 
 When using the Website, you agree not to do any of the following:
 
 - Engage in any illegal, misleading, or fraudulent activities.
-- Attempt to interfere with the normal operation of our Website's servers or networks.
-- Use any robots, crawlers, or other automated tools to access or scrape content from the Website.
-- Attempt to investigate the technical implementation of our Website.
-- Attempt to bypass any security measures we have in place to protect the Website.
+- Attempt to interfere with the normal operation of our servers or networks.
+- Use robots, crawlers, or other automated tools to access or scrape content from the Website.
+- Probe or reverse-engineer the technical implementation of the Website.
+- Bypass or attempt to bypass any security measures we deploy to protect the Website.
 
 ## 4. Third-Party Links and Content
 
-The Website contains links and embedded content from third-party sites and services. We cannot control these third parties, so we are not responsible for their content, privacy policies, or actions. We cannot be held responsible for any issues that may arise from your use of or reliance on any such third-party content.
+The Website contains links and embedded content from third-party sites and services (e.g., YouTube). We do not control those third parties and are not responsible for their content, privacy policies, or actions. Your use of, or reliance on, any third-party content is at your own risk.
 
-## 5. Some Important Notes
+## 5. Accuracy of Information and No Legal Advice
 
-The Website and all its content are provided "as is," and we make no promises of any kind. We cannot guarantee that:
-- The Website will always be secure, available, or error-free.
-- The embedded games or content will meet your specific expectations.
-- Any defects on the Website will be corrected.
+We strive to provide accurate and timely tutorial information, but social platforms (such as Instagram) may change interfaces and settings with new versions. We do not guarantee completeness, timeliness, or suitability of the information, and nothing on the Website constitutes legal, compliance, or professional advice. You should independently evaluate your situation and assume the associated risks.
 
-Please be aware that you use the Website at your own risk.
+## 6. Limitation of Liability
 
-## 6. Regarding Liability
+To the maximum extent permitted by applicable law, the Website and its maintainers/contributors will not be liable for any indirect, incidental, special, punitive, or consequential damages arising out of your use of (or inability to use) the Website, reliance on information provided, or interactions with third parties.
 
-To the extent permitted by common rules, we and our partners will not be liable for any indirect or special losses you may incur from using (or being unable to use) the Website.
+## 7. Advertising and Consent Management
 
-## 7. Updates to These Terms
+To support sustainable operations, we may integrate third-party advertising in the future (e.g., Google AdSense/Ad Manager). If enabled, relevant third parties may process data for ad serving, frequency capping, measurement, and anti-abuse, and—where you consent—personalized ads. We will comply with applicable laws and platform policies, obtain and record your choices via a consent management tool, and allow you to change or withdraw consent at any time.
 
-We may update these Terms from time to time. Any changes will be posted on this page, and we will update the "Last Updated" date at the top. If you continue to use the Website after we post updates, it means you agree to the new Terms.
+For details, please refer to our Privacy Policy.
 
-## 8. Regarding Terms and Disagreements
+## 8. Updates to These Terms
 
-We hope to provide you with a pleasant experience. If you have any questions or disagreements about these Terms or our services, we encourage you to first contact us at `contact@plonky.cc`. We are happy to communicate with you and find a solution.
+We may update these Terms from time to time. Any changes will be posted on this page and reflected in the “Last Updated” date above. If you continue using the Website after updates are posted, you agree to the new Terms.
 
-These Terms will be interpreted and applied in a fair and reasonable manner, with reference to the common practices of the location where our Website operates.
+## 9. Disputes and Questions
 
-## 9. Contact Us
+We aim to provide a good experience. If you have questions or disputes regarding these Terms or our services, please contact us first—we are happy to communicate and seek an amicable resolution.
 
-If you have any questions about these Terms of Use, please contact us at:
+These Terms will be interpreted and applied in a fair and reasonable manner, with reference to general industry practices and applicable law.
 
-- Email: [contact@plonky.cc](mailto:contact@plonky.cc)
+## 10. Contact Us
 
-Thank you for choosing [plonky.cc](/)! 
+If you have any questions about these Terms of Use, please contact us:
+
+- Website: <https://turnofflocation.com/>
+- GitHub Repository: <https://github.com/lur913/turn-off-location> (Issues/PRs welcome)
+
+Thank you for using TurnOffLocation.com!
