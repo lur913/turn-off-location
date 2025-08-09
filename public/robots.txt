@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://turnofflocation.com/sitemap.xml
+
+# Common crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
