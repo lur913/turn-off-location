@@ -1,51 +1,64 @@
 ---
 title: 'Privacy Policy'
-lastUpdated: 'July 22, 2025'
+lastUpdated: 'August 9, 2025'
 ---
 
-Welcome to [plonky.cc](/) (hereinafter referred to as "the Website"). We respect and are committed to protecting your privacy. This Privacy Policy is intended to explain how we handle your information when you visit and use our services.
+Welcome to TurnOffLocation.com ("the Website"). We respect and are committed to protecting your privacy. This Privacy Policy explains how we handle information when you visit and use our services.
 
 Please read this policy carefully before using the Website.
 
-## 1. We Do Not Collect Personal Identifiable Information
+## 1. We Do Not Collect Personal Identifiable Information (PII)
 
-The core function of this Website is to provide free online access to the HTML5 game "Plonky". We **do not** require you to register for an account, nor do we actively collect any of your Personal Identifiable Information (PII) through any means (such as forms or cookies), including your name, email address, phone number, or physical address.
+The core function of this Website is to provide step-by-step tutorials on how to turn off location tracking in social apps. We do not require account registration and we do not actively collect your Personal Identifiable Information (PII) via forms or Cookies (e.g., name, email address, phone number, or physical address).
 
 ## 2. Types of Information We Process
 
 Although we do not collect PII, certain non-personal information may be automatically processed when you interact with the Website:
 
-- **Game Progress Data**: To enhance your gaming experience, the game may use your browser's "Local Storage" feature to save your game progress. This data is stored only on your own device, and we cannot access or collect it. You can delete this information by clearing your browser's cache and data.
-- **Device and Browser Information**: Like most websites, our servers may log standard technical information sent by your browser, such as your IP address, browser type and version, access times, and referring URLs. This information is used primarily for statistical analysis and to ensure the security of the Website and is not used to identify you personally.
+- **Server logs and device information**: Like most websites, hosting providers may log standard technical information sent by your browser such as IP address, browser type and version, access time, and referring URLs. We use this information only for security, abuse prevention, and aggregated statistics, not to identify you personally.
+- **Embedded media interaction data**: We embed third-party videos (e.g., YouTube tutorials) via `iframe`. When you watch or interact with embedded content, those third parties may process usage data (e.g., IP, viewing behavior, device information) under their own policies. We use `referrerpolicy="strict-origin-when-cross-origin"` to reduce unnecessary referrer leakage.
 
-## 3. Third-Party Services and Data Processing
+## 3. Cookies and Local Storage
 
-To operate and improve the Website, we may integrate third-party services. These services have their own independent privacy policies and data processing practices, which we do not directly control. These services may include, but are not limited to:
+- **Website settings**: We do not use Cookies to track individuals. We currently do not use third-party tracking pixels (e.g., ad pixels, remarketing pixels) and do not store personally identifying data in local storage. If we integrate advertising in the future (e.g., Google AdSense/Ad Manager) to support sustainable operations, third parties may set Cookies or local storage identifiers for ad serving, frequency capping, measurement, and anti-abuse. We will obtain your consent via a consent management tool and provide an option to withdraw consent at any time.
+- **Third-party embeds**: YouTube and other third parties may set Cookies or use local storage in their players for playback and anti-abuse. You can restrict third-party Cookies in your browser settings or use tracking protection tools.
 
-- **Embedded Content**: The core game and video content on this Website are embedded via `iframe` and provided by third parties (such as game publishers or YouTube). When you interact with this content, these third parties may collect your usage data (e.g., IP address, viewing/playing behavior).
+## 4. Third-Party Services and Data Processing
 
-- **Analytics Services**: We may use third-party analytics tools (e.g., Google Analytics) in the future to help us understand how users interact with the Website. These tools may use technologies like cookies to collect your non-personal information, such as pages visited, time spent, and browser type, to generate aggregated statistical reports.
+To operate and improve the Website, we may integrate third-party services with independent privacy policies and practices that we do not control. These include:
 
-- **Advertising Services**: We may partner with third-party advertising networks in the future to display advertisements on the Website. These ad partners may use cookies, web beacons, or other tracking technologies to collect information about you to display more relevant ads based on your interests and online behavior.
+- **Embedded content**: Third-party videos such as YouTube. When you interact with this content, third parties may collect and process your usage data under their policies.
+- **Hosting and delivery**: Hosting providers and CDNs may process access logs for security and operational purposes.
 
-These third-party services follow their own privacy policies when collecting and using information. We strongly recommend that you review the privacy policies of these third-party services to understand their specific data handling practices. We are not responsible for the data processing activities of any third-party websites or services.
+These third parties collect and use information under their own privacy policies. Please review their policies for details. We are not responsible for the data processing practices of any third-party websites or services.
 
-## 4. Data Security
+## 5. Advertising and Tracking
 
-We have implemented reasonable administrative and technical measures to protect the security of the Website. However, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure, and we cannot guarantee absolute security.
+- **Current status**: The Website does not currently serve ads and does not share user data with third-party ad networks.
+- **Future plan**: To support sustainable operations, we may integrate Google advertising products (e.g., Google AdSense or Google Ad Manager) in the future.
+- **Data use and technologies**: If ads are integrated, Google and its partners may use Cookies/local storage and online identifiers for ad serving, frequency capping, measurement, anti-abuse, and—where you consent—personalized advertising. You can change your choices at any time in the consent tool and may opt to receive Non-Personalized Ads (NPA) only.
+- **Compliance and consent**: We will comply with applicable laws (e.g., GDPR, ePrivacy, CCPA/CPRA) and Google's [EU User Consent Policy](https://www.google.com/about/company/user-consent-policy/), displaying consent prompts where required and recording your choices.
+- **Controls and opt-out**:
+  - Manage Google ad personalization: <https://adssettings.google.com>
+  - AdChoices industry choices: <https://youradchoices.com>
+  - NAI opt-out page: <https://optout.networkadvertising.org>
+- **Learn more**:
+  - How Google uses information from sites or apps that use their services: <https://policies.google.com/technologies/partner-sites>
+  - Google Privacy Policy: <https://policies.google.com/privacy>
 
-## 5. Children's Privacy
+## 6. Data Security
 
-This Website is not designed for children under the age of 13. We do not knowingly collect any personally identifiable information from children under 13. If we discover that we have inadvertently collected such information, we will take immediate steps to delete it.
+We implement reasonable administrative and technical measures to protect Website security and availability. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
 
-## 6. Changes to This Privacy Policy
+## 7. Changes to This Privacy Policy
 
-We reserve the right to update this Privacy Policy at any time. Any changes to this policy will be posted on this page. The "Last Updated" date at the top of this policy will reflect the effective time of the latest version. We encourage you to review this Privacy Policy periodically for any changes.
+We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page; the "Last Updated" date at the top reflects the effective date of the latest version. We recommend reviewing this page periodically for updates.
 
-## 7. Contact Us
+## 8. Contact Us
 
-If you have any questions or concerns about this Privacy Policy, please contact us at:
+If you have any questions or suggestions regarding this Privacy Policy, please contact us or submit feedback via:
 
-- Email: [contact@plonky.cc](mailto:contact@plonky.cc)
+- Website: <https://turnofflocation.com/>
+- GitHub Repository: <https://github.com/lur913/turn-off-location> (Issues/PRs welcome)
 
-Thank you for taking the time to read our Privacy Policy. We hope you enjoy your time on [Plonky.cc](/)! 
+Thank you for reading this Privacy Policy and for supporting practical digital privacy protection.
