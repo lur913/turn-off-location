@@ -5,8 +5,13 @@ import Base from "@/layouts/Base.astro";
 import AndroidIcon from "@/assets/svg/android.svg";
 import AppleIcon from "@/assets/svg/apple.svg";
 import InstagramIcon from "@/assets/svg/instagram.svg";
+import TrendingIcon from "@/assets/svg/trending.svg";
 
 const currentYear = new Date().getFullYear();
+// 动态获取月份，并转换成英文，如：March 等
+const month = new Date().toLocaleString("en-US", { month: "long" });
+
+
 const title = `How to Turn Off Location on Instagram (${currentYear} Guide) | TurnOffLocation.com`;
 const description = `Learn how to disable location services on Instagram for iOS and Android. Updated ${currentYear} step-by-step guide with screenshots. Protect your privacy today.`;
 ---
@@ -18,89 +23,300 @@ const description = `Learn how to disable location services on Instagram for iOS
 >
   <!-- Hero Section -->
   <section class="px-4 py-10 md:py-24 text-center bg-gray-100">
-    <h1 class="text-3xl md:text-5xl font-bold mb-4">
-      How to Turn Off Location on Instagram ({currentYear} Guide)
-    </h1>
-    <p class="text-lg mb-6">
-      Learn how to disable Instagram's location features on iOS, Android, and
-      the new Instagram Map. Updated August {currentYear}.
-    </p>
-    <div class="flex flex-col md:flex-row justify-center gap-4">
-      <a
-        href="#"
-        class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
-        ><AppleIcon /> iPhone Guide</a
-      >
-      <a
-        href="#"
-        class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
-        ><AndroidIcon /> Android Guide</a
-      >
-      <a
-        href="#"
-        class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
-        ><InstagramIcon fill="#fff" /> Instagram Map</a
-      >
+    <div class="max-w-4xl mx-auto">
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-800 rounded-full mb-6">
+        <TrendingIcon class="w-5 h-5" />
+        <span>Latest Update: { month} { currentYear } Instagram Privacy Settings Guide</span>
+      </div>
+      <h1 class="text-3xl md:text-5xl font-bold mb-4">
+        How to Turn Off Instagram Location Tracking ({currentYear} Complete Guide)
+      </h1>
+      <p class="text-lg mb-8 text-gray-700">
+        Detailed step-by-step guide to disable Instagram's location tracking on iOS and Android devices,
+        including the latest Instagram Map feature settings. All content regularly updated.
+      </p>
+      <div class="flex flex-col md:flex-row justify-center gap-4">
+        <a
+          href="#ios-guide"
+          class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        >
+          <AppleIcon /> iPhone Guide
+        </a>
+        <a
+          href="#android-guide"
+          class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        >
+          <AndroidIcon /> Android Guide
+        </a>
+        <a
+          href="#instagram-map"
+          class="bg-blue-600 flex items-center justify-center gap-2 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+        >
+          <InstagramIcon fill="#fff" /> Instagram Map
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- video -->
-  <section class="px-6 py-10">
-    <h2 class="text-2xl font-semibold text-center mb-8">
-      Disable Instagram's Location Features On iPhone
-    </h2>
-    <div class="flex justify-center items-center">
-      <iframe class="max-w-2xl aspect-video" src="https://www.youtube.com/embed/rp1VqutLDME?si=-JJxZDJS2P3WdENQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <!-- Quick Navigation -->
+  <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-3">
+      <ul class="flex space-x-6 text-sm">
+        <li><a href="#ios-guide" class="text-gray-600 hover:text-blue-600">iOS Guide</a></li>
+        <li><a href="#android-guide" class="text-gray-600 hover:text-blue-600">Android Guide</a></li>
+        <li><a href="#instagram-map" class="text-gray-600 hover:text-blue-600">Instagram Map</a></li>
+        <li><a href="#faq" class="text-gray-600 hover:text-blue-600">FAQ</a></li>
+        <li><a href="#privacy-tips" class="text-gray-600 hover:text-blue-600">Privacy Tips</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- iOS Guide Section -->
+  <section id="ios-guide" class="py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Turn Off Instagram Location Tracking on iPhone</h2>
+      
+      <!-- Video Tutorial -->
+      <div class="mb-12">
+        <h3 class="text-xl font-semibold mb-6">Video Tutorial: How to Turn Off Instagram Location on iPhone</h3>
+        <div class="relative rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            class="w-full aspect-video"
+            src="https://www.youtube.com/embed/JAT9rvDRZZ0?si=H0mGGKLKcfuc73Kr" 
+            title="How to Turn Off Location on Instagram - iPhone Guide" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="space-y-8">
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Step 1: Disable System Location Permissions</h3>
+          <ol class="list-decimal list-inside space-y-4 text-gray-700">
+            <li>Open the "Settings" app on your iPhone</li>
+            <li>Scroll down and find "Instagram"</li>
+            <li>Tap "Location"</li>
+            <li>Select "Never"</li>
+            <li>Turn off "Precise Location"</li>
+          </ol>
+          <!-- Screenshots needed -->
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Step 2: Disable In-App Location Settings</h3>
+          <ol class="list-decimal list-inside space-y-4 text-gray-700">
+            <li>Open the Instagram app</li>
+            <li>Go to your profile</li>
+            <li>Tap the menu button in the top right</li>
+            <li>Select "Settings and Privacy"</li>
+            <li>Tap "Location"</li>
+            <li>Turn off all location-related options</li>
+          </ol>
+          <!-- Screenshots needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Android Guide Section -->
+  <section id="android-guide" class="py-16 px-4 bg-gray-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Turn Off Instagram Location Tracking on Android</h2>
+      
+      <!-- Video Tutorial -->
+      <div class="mb-12">
+        <h3 class="text-xl font-semibold mb-6">Video Tutorial: How to Turn Off Instagram Location on Android</h3>
+        <div class="relative rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            class="w-full aspect-video"
+            src="https://www.youtube.com/embed/HoMr9AtoLJ4?si=kA9BuYbG_qzR8uLq" 
+            title="How to Turn Off Location on Instagram - Android Guide" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="space-y-8">
+        <div class="bg-white p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Step 1: Disable System Location Permissions</h3>
+          <ol class="list-decimal list-inside space-y-4 text-gray-700">
+            <li>Open "Settings" on your Android device</li>
+            <li>Tap "Apps" or "Application Manager"</li>
+            <li>Find and select "Instagram"</li>
+            <li>Tap "Permissions"</li>
+            <li>Select "Location"</li>
+            <li>Choose "Don't allow"</li>
+          </ol>
+          <!-- Screenshots needed -->
+        </div>
+
+        <div class="bg-white p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Step 2: Disable In-App Location Settings</h3>
+          <ol class="list-decimal list-inside space-y-4 text-gray-700">
+            <li>Open the Instagram app</li>
+            <li>Tap your profile icon</li>
+            <li>Tap the menu in the top right</li>
+            <li>Select "Settings and Privacy"</li>
+            <li>Find and tap "Location" settings</li>
+            <li>Turn off all location-related options</li>
+          </ol>
+          <!-- Screenshots needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Map Section -->
+  <section id="instagram-map" class="py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8">Turn Off Instagram Map Feature</h2>
+      
+      <div class="bg-gray-50 p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">Why Disable Instagram Map?</h3>
+        <p class="text-gray-700 mb-6">
+          Instagram Map displays your activity locations, potentially revealing your daily routines and
+          creating privacy and safety risks. We recommend disabling this feature to protect your personal privacy.
+        </p>
+
+        <h4 class="font-semibold mb-4">How to Disable:</h4>
+        <ol class="list-decimal list-inside space-y-4 text-gray-700">
+          <li>Open the Instagram app</li>
+          <li>Tap the messages icon to enter DMs</li>
+          <li>Tap "Map" at the top</li>
+          <li>Tap the settings icon in the top right</li>
+          <li>Under "Who can see your location," select "No One"</li>
+          <li>Confirm your changes</li>
+        </ol>
+        <!-- Screenshots needed -->
+      </div>
     </div>
   </section>
 
   <!-- FAQ Section -->
-  <section class="px-6 py-12 max-w-4xl mx-auto">
-    <h2 class="text-2xl font-semibold text-center mb-8">
-      Frequently Asked Questions
-    </h2>
-    <div class="space-y-6">
-      <details class="bg-gray-100 p-4 rounded">
-        <summary class="font-semibold cursor-pointer"
-          ><h3 class="inline-block">Does Instagram track my location by default?</h3></summary
-        >
-        <p class="mt-2 text-sm text-gray-700">
-          Instagram only uses your location if you've granted permission.
-          However, new features like Instagram Map may reveal more than you
-          expect.
-        </p>
-      </details>
-      <details class="bg-gray-100 p-4 rounded">
-        <summary class="font-semibold cursor-pointer"
-          ><h3 class="inline-block">What is Instagram Map, and should I disable it?</h3></summary
-        >
-        <p class="mt-2 text-sm text-gray-700">
-          Instagram Map shows your recent activity locations to mutual
-          followers. Many users choose to turn it off for privacy reasons.
-        </p>
-      </details>
-      <details class="bg-gray-100 p-4 rounded">
-        <summary class="font-semibold cursor-pointer"
-          ><h3 class="inline-block">Will turning off location affect recommendations or ads?</h3></summary
-        >
-        <p class="mt-2 text-sm text-gray-700">
-          You may receive less relevant local content, but your privacy is
-          better protected. It's a worthwhile tradeoff for most users.
-        </p>
-      </details>
+  <section id="faq" class="py-16 px-4 bg-gray-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold text-center mb-8">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <details class="bg-white p-4 rounded">
+          <summary class="font-semibold cursor-pointer">
+            <h3 class="inline-block">Does Instagram Track My Location by Default?</h3>
+          </summary>
+          <p class="mt-2 text-gray-700">
+            Instagram only accesses your location after you grant permission. However, once authorized,
+            it may use your location data across multiple features, including photo tagging and Instagram Map.
+            We recommend regularly checking your location permission settings.
+          </p>
+        </details>
+
+        <details class="bg-white p-4 rounded">
+          <summary class="font-semibold cursor-pointer">
+            <h3 class="inline-block">Will Turning Off Location Affect My Experience?</h3>
+          </summary>
+          <p class="mt-2 text-gray-700">
+            Disabling location may affect some location-dependent features:
+            - You won't be able to add location tags to posts
+            - You may receive fewer local content recommendations
+            - Instagram Map feature won't be available
+            However, these limitations are worth it for enhanced privacy protection.
+          </p>
+        </details>
+
+        <details class="bg-white p-4 rounded">
+          <summary class="font-semibold cursor-pointer">
+            <h3 class="inline-block">How Do I Remove Previously Shared Locations?</h3>
+          </summary>
+          <p class="mt-2 text-gray-700">
+            To remove previously shared location information:
+            1. Visit the post containing location information
+            2. Tap the three-dot menu
+            3. Select "Edit"
+            4. Remove the location tag
+            5. Save your changes
+          </p>
+        </details>
+
+        <details class="bg-white p-4 rounded">
+          <summary class="font-semibold cursor-pointer">
+            <h3 class="inline-block">Does Instagram Map Show My Real-Time Location?</h3>
+          </summary>
+          <p class="mt-2 text-gray-700">
+            Instagram Map doesn't track your location in real-time, but it shows locations from your recent
+            posts and stories with location tags. This information remains on the map for 24-48 hours,
+            depending on the content type.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Tips Section -->
+  <section id="privacy-tips" class="py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold text-center mb-8">Location Privacy Protection Tips</h2>
+      
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Regular Check-ups</h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Check location permissions monthly</li>
+            <li>Verify privacy settings after app updates</li>
+            <li>Review location info in shared content</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4">Best Practices</h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Avoid displaying frequent locations on your profile</li>
+            <li>Don't post content from your current location</li>
+            <li>Turn off location metadata in photos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Guide -->
+  <section class="py-16 px-4 bg-gray-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold text-center mb-8">Emergency Response Guide</h2>
+      
+      <div class="bg-white p-6 rounded-lg">
+        <h3 class="text-xl font-semibold mb-4">What to Do If Your Location Information Is Compromised?</h3>
+        <ol class="list-decimal list-inside space-y-4 text-gray-700">
+          <li>Immediately remove content containing location information</li>
+          <li>Review and disable all location permissions</li>
+          <li>Change your account password</li>
+          <li>Check login activity and remove unknown devices</li>
+          <li>Contact Instagram Support to report the issue</li>
+        </ol>
+
+        <div class="mt-6 p-4 bg-blue-50 rounded">
+          <p class="text-blue-800">
+            If you believe your safety is at risk:
+            <br>1. Contact local law enforcement
+            <br>2. Report harassment to Instagram
+            <br>3. Consider temporarily deactivating your account
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- SEO Block -->
-  <section class="px-6 py-4 text-sm text-gray-600  max-w-4xl mx-auto">
+  <section class="px-6 py-4 text-sm text-gray-600 max-w-4xl mx-auto">
     <p class="bg-gray-100 rounded-md p-8">
-      "TurnOffLocation.com is your go-to privacy guide for disabling location
-      tracking on your favorite apps. We provide step-by-step tutorials for
-      Instagram, TikTok, Snapchat, and more - helping you stay in control of
-      your digital footprint in {currentYear} and beyond. Whether you're using an
-      iPhone, Android device, or just want to understand how features like Instagram
-      Map work, our up-to-date guides are designed to help you protect your personal
-      data." —— turnofflocation.com
+      TurnOffLocation.com is your privacy protection guide, focused on helping users control location tracking
+      in social media apps. We provide up-to-date tutorials for Instagram, TikTok, Snapchat, and more,
+      helping you maintain digital privacy in {currentYear} and beyond. Whether you're using an iPhone,
+      Android device, or want to understand how features like Instagram Map affect your privacy,
+      our regularly updated guides help you protect your personal data.
     </p>
   </section>
 </Base>
